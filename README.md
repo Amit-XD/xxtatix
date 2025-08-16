@@ -89,7 +89,7 @@ Allow self-signed certificates (for labs/testing environments):
 python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
 
 
-📊 Examples
+## 📊 Examples
 Here is an example of the output from a quick scan:
 
 ╔═══════════════════════════════════════════╗
@@ -110,7 +110,7 @@ Headers: 100%|████████| 8/8 [00:00<00:00, ...]
    [https://testphp.vulnweb.com/robots.txt](https://testphp.vulnweb.com/robots.txt)  [200]
 
 
-📂 Project Structure
+## 📂 Project Structure
 
 xxtatix/
 ├─ xxtatix.py
