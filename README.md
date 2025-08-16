@@ -97,7 +97,7 @@ xxtatix/
 ├─ README.md
 ├─ LICENSE
 ├─ xxtatix-banner.png   # optional banner image
-└─ demo.gif             # optional demo GIF
+
 
 ⚖️ Legal / Ethics Notice
 
