@@ -96,7 +96,7 @@ xxtatix/
 ├─ requirements.txt
 ├─ README.md
 ├─ LICENSE
-├─ xxtatix-banner.png   # optional banner image
+├─ xxtatix-banner.png   
 
 
 ⚖️ Legal / Ethics Notice
