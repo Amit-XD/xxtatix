@@ -78,18 +78,29 @@ To perform a quick scan on a target URL:
 ```bash
 python xxtatix.py -u [https://example.com](https://example.com)
 
-Advanced Options
-Save a JSON report:
-python xxtatix.py -u [https://example.com](https://example.com) --json report.json
+### Advanced Options
 
-Use custom wordlists, payloads, and threads:
-python xxtatix.py -u [https://example.com](https://example.com) --wordlist wordlist.txt --payloads payloads.txt --threads 20
+* **Save a JSON report:**
+    ```bash
+    python xxtatix.py -u [https://example.com](https://example.com) --json report.json
+    ```
 
-Allow self-signed certificates (for labs/testing environments):
-python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
+* **Use custom wordlists, payloads, and threads:**
+    ```bash
+    python xxtatix.py -u [https://example.com](https://example.com) --wordlist wordlist.txt --payloads payloads.txt --threads 20
+    ```
 
+* **Allow self-signed certificates (for labs/testing environments):**
+    ```bash
+    python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
+    ```
+<br>
+
+***
+<br>
 
 ## 📊 Examples
+
 Here is an example of the output from a quick scan:
 
 ╔═══════════════════════════════════════════╗
