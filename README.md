@@ -44,13 +44,18 @@ git clone https://github.com/Amit-XD/xxtatix.git
 cd xxtatix
 python -m venv venv
 
+
 # Linux/Mac
 source venv/bin/activate
+
 
 # Windows (PowerShell)
 .\venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
+
+
+
 
 📖 Usage
 
@@ -66,6 +71,8 @@ python xxtatix.py -u https://example.com --wordlist wordlist.txt --payloads payl
 
 🔹 Allow Self-Signed Certs (Labs)
 python xxtatix.py -u https://127.0.0.1 --insecure
+
+
 
 📊 Examples
 
@@ -86,8 +93,14 @@ Headers: 100%|████████| 8/8 [00:00<00:00, ...]
 [!] Interesting directories/files found:
    https://testphp.vulnweb.com/robots.txt  [200]
 
+
+
+
 JSON Output Example:
 python xxtatix.py -u https://testphp.vulnweb.com --json examples/report.json
+
+
+
 
 📂 Project Structure
 xxtatix/
@@ -100,11 +113,21 @@ xxtatix/
 ├─ xxtatix-banner.png   
 
 
+
+
+
+
+
 ⚖️ Legal / Ethics Notice
 
 This tool is for educational purposes only.
 ✅ Use only on assets you own or have explicit permission to test.
 ❌ Unauthorized use against external systems is illegal.
+
+
+
+
+
 
 📜 License
 
