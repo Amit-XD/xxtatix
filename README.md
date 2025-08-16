@@ -55,6 +55,7 @@ pip install -r requirements.txt
 📖 Usage
 
 🔹 Quick Scan
+```bash
 python xxtatix.py -u https://example.com
 
 🔹 Save JSON Report
