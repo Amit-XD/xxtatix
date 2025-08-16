@@ -94,10 +94,8 @@ python xxtatix.py -u [https://example.com](https://example.com)
     ```bash
     python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
     ```
-<br>
 
-***
-<br>
+---
 
 ## 📊 Examples
 
