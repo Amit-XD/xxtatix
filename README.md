@@ -54,8 +54,7 @@ pip install -r requirements.txt
 
 📖 Usage
 
-🔹 ### Quick Scan
-```bash
+🔹 Quick Scan
 python xxtatix.py -u https://example.com
 
 
