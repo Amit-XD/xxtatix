@@ -80,20 +80,19 @@ python xxtatix.py -u [https://example.com](https://example.com)
 
 Advanced Options
 
-* **Save a JSON report:**
-    ```bash
-    python xxtatix.py -u [https://example.com](https://example.com) --json report.json
-    ```
+* Save a JSON report:
 
-* **Use custom wordlists, payloads, and threads:**
-    ```bash
+python xxtatix.py -u [https://example.com](https://example.com) --json report.json
+
+* Use custom wordlists, payloads, and threads:
+
     python xxtatix.py -u [https://example.com](https://example.com) --wordlist wordlist.txt --payloads payloads.txt --threads 20
-    ```
+    
 
-* **Allow self-signed certificates (for labs/testing environments):**
-    ```bash
+* Allow self-signed certificates (for labs/testing environments):
+
     python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
-    ```
+    
 
 📊 Examples
 
