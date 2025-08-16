@@ -17,73 +17,89 @@
 ---
 
 ## 📑 Table of Contents
-- [✨ Features](#-features)
-- [🚀 Installation](#-installation)
-- [📖 Usage](#-usage)
-- [📊 Examples](#-examples)
-- [📂 Project Structure](#-project-structure)
-- [⚖️ Legal / Ethics Notice](#️-legal--ethics-notice)
-- [📜 License](#-license)
+- [**Features**](#-features)
+- [**Installation**](#-installation)
+- [**Usage**](#-usage)
+- [**Examples**](#-examples)
+- [**Project Structure**](#-project-structure)
+- [**Legal / Ethics Notice**](#️-legal--ethics-notice)
+- [**License**](#-license)
 
 ---
 
 ## ✨ Features
-✔️ Security headers check  
-✔️ Reflected XSS detection  
-✔️ Open redirect detection  
-✔️ Directory & file discovery  
-✔️ JSON report output  
-✔️ Multi-threaded scanning for speed  
+
+* ✔️ **Security headers check**
+* ✔️ **Reflected XSS detection**
+* ✔️ **Open redirect detection**
+* ✔️ **Directory & file discovery**
+* ✔️ **JSON report output**
+* ✔️ **Multi-threaded scanning for speed**
 
 ---
 
 ## 🚀 Installation
 
+### **Prerequisites**
+You must have **Python 3.9** or higher installed.
+
+### **Steps**
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Amit-XD/xxtatix.git](https://github.com/Amit-XD/xxtatix.git)
+    cd xxtatix
+    ```
+
+2.  **Create a virtual environment and activate it:**
+
+    **Linux/Mac:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+
+    **Windows (PowerShell):**
+    ```powershell
+    python -m venv venv
+    .\venv\Scripts\Activate.ps1
+    ```
+
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+## 📖 Usage
+
+### **Basic Scan**
+To perform a quick scan on a target URL:
 ```bash
-git clone https://github.com/Amit-XD/xxtatix.git
-cd xxtatix
-python -m venv venv
+python xxtatix.py -u [https://example.com](https://example.com)
 
+Advanced Options
+Save a JSON report:
+python xxtatix.py -u [https://example.com](https://example.com) --json report.json
 
-# Linux/Mac
-source venv/bin/activate
+Use custom wordlists, payloads, and threads:
+python xxtatix.py -u [https://example.com](https://example.com) --wordlist wordlist.txt --payloads payloads.txt --threads 20
 
-
-# Windows (PowerShell)
-.\venv\Scripts\Activate.ps1
-
-pip install -r requirements.txt
-
-
-
-
-📖 Usage
-
-🔹 Quick Scan
-python xxtatix.py -u https://example.com
-
-
-🔹 Save JSON Report
-python xxtatix.py -u https://example.com --json report.json
-
-🔹 Custom Wordlist, Payloads & Threads
-python xxtatix.py -u https://example.com --wordlist wordlist.txt --payloads payloads.txt --threads 20
-
-🔹 Allow Self-Signed Certs (Labs)
-python xxtatix.py -u https://127.0.0.1 --insecure
-
+Allow self-signed certificates (for labs/testing environments):
+python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
 
 
 📊 Examples
+Here is an example of the output from a quick scan:
 
 ╔═══════════════════════════════════════════╗
-║          ✦  X X T A T I X  ✦              ║
+║          ✦  X X T A T I X  ✦             ║
 ╚═══════════════════════════════════════════╝
 
-   ⚡ Mini Web Application Security Scanner ⚡
-                 by Amit
+  ⚡ Mini Web Application Security Scanner ⚡
+             by Amit
 
-Target: https://testphp.vulnweb.com
+Target: [https://testphp.vulnweb.com](https://testphp.vulnweb.com)
 
 [+] Checking Security Headers...
 Headers: 100%|████████| 8/8 [00:00<00:00, ...]
@@ -91,18 +107,11 @@ Headers: 100%|████████| 8/8 [00:00<00:00, ...]
 [+] No reflected XSS detected with basic payloads.
 [+] No open redirects detected with basic probes.
 [!] Interesting directories/files found:
-   https://testphp.vulnweb.com/robots.txt  [200]
-
-
-
-
-JSON Output Example:
-python xxtatix.py -u https://testphp.vulnweb.com --json examples/report.json
-
-
+   [https://testphp.vulnweb.com/robots.txt](https://testphp.vulnweb.com/robots.txt)  [200]
 
 
 📂 Project Structure
+
 xxtatix/
 ├─ xxtatix.py
 ├─ payloads.txt
@@ -110,26 +119,24 @@ xxtatix/
 ├─ requirements.txt
 ├─ README.md
 ├─ LICENSE
-├─ xxtatix-banner.png   
-
-
-
-
-
+├─ xxtatix-banner.png
 
 
 ⚖️ Legal / Ethics Notice
 
 This tool is for educational purposes only.
-✅ Use only on assets you own or have explicit permission to test.
-❌ Unauthorized use against external systems is illegal.
 
+    ✅ Use only on assets you own or have explicit permission to test.
 
-
+    ❌ Unauthorized use against external systems is illegal.
 
 
 
 📜 License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for full details.
+
+
+
+
 
