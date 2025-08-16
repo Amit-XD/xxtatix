@@ -97,7 +97,7 @@ python xxtatix.py -u [https://example.com](https://example.com)
 
 ---
 
-## 📊 Examples
+📊 Examples
 
 Here is an example of the output from a quick scan:
 
@@ -119,7 +119,7 @@ Headers: 100%|████████| 8/8 [00:00<00:00, ...]
    [https://testphp.vulnweb.com/robots.txt](https://testphp.vulnweb.com/robots.txt)  [200]
 
 
-## 📂 Project Structure
+📂 Project Structure
 
 xxtatix/
 ├─ xxtatix.py
