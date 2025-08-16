@@ -78,7 +78,7 @@ To perform a quick scan on a target URL:
 ```bash
 python xxtatix.py -u [https://example.com](https://example.com)
 
-### Advanced Options
+Advanced Options
 
 * **Save a JSON report:**
     ```bash
@@ -94,8 +94,6 @@ python xxtatix.py -u [https://example.com](https://example.com)
     ```bash
     python xxtatix.py -u [https://127.0.0.1](https://127.0.0.1) --insecure
     ```
-
----
 
 📊 Examples
 
